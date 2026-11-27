@@ -9,7 +9,7 @@ This guide covers standalone APK installation, automated updates via Obtainium, 
 ### 1. Direct APK Download (GitHub Releases)
 
 Download the latest pre-compiled, signed APK directly:
-- [Download Latest Release](https://github.com/karjok/heimdall/releases/latest)
+- [Download Latest Release](https://github.com/karjok/messagate/releases/latest)
 
 ---
 
@@ -20,7 +20,7 @@ If you prefer installing directly from GitHub releases with automated update not
 2. Tap **Add App**.
 3. Enter the repository URL:
    ```
-   https://github.com/karjok/heimdall
+   https://github.com/karjok/messagate
    ```
 4. Save and install.
 
@@ -33,8 +33,8 @@ Requirements:
 - Android SDK (API 34)
 
 ```bash
-git clone https://github.com/karjok/heimdall.git
-cd heimdall
+git clone https://github.com/karjok/messagate.git
+cd messagate
 
 # Build signed release APK
 ./gradlew assembleRelease

@@ -2,7 +2,7 @@
 
 **A fork of [Heimdall](https://github.com/monkeyscript/heimdall) — an offline, pre-storage SMS spam firewall — rebuilt around a fully user-editable detection engine.**
 
-[![GitHub Release](https://img.shields.io/github/v/release/karjok/heimdall?label=GitHub%20Release&logo=github&color=gray)](https://github.com/karjok/heimdall/releases/latest)
+[![GitHub Release](https://img.shields.io/github/v/release/karjok/messagate?label=GitHub%20Release&logo=github&color=gray)](https://github.com/karjok/messagate/releases/latest)
 [![No Internet](https://img.shields.io/badge/Permissions-Zero%20Internet-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
@@ -64,11 +64,11 @@ Roadmap: user-defined categories (add/rename/recolor/reorder), category filters 
 
 Releases are published **only on GitHub** (this fork is not on F-Droid):
 
-➡️ **[Download the latest APK](https://github.com/karjok/heimdall/releases/latest)**
+➡️ **[Download the latest APK](https://github.com/karjok/messagate/releases/latest)**
 
 - **New app id:** Messagate installs as `com.messagate.app`, so it does **not** replace an existing Heimdall install and cannot import its data. Uninstall the upstream app to avoid duplicate notifications from its `SMS_RECEIVED` receiver.
 - Requires Android 8.0+ (API 26). Tested on Android 13.
-- Automatic updates: add `https://github.com/karjok/heimdall` to [Obtainium](https://github.com/ImranR98/Obtainium).
+- Automatic updates: add `https://github.com/karjok/messagate` to [Obtainium](https://github.com/ImranR98/Obtainium).
 - Sideloading, Play Protect and restricted-permission help: [`docs/installation.md`](docs/installation.md).
 
 After launching, grant the default-SMS role (required for pre-storage blocking) and notification permission.
@@ -89,8 +89,8 @@ After launching, grant the default-SMS role (required for pre-storage blocking) 
 ### 1. Clone and configure the SDK
 
 ```bash
-git clone https://github.com/karjok/heimdall.git
-cd heimdall
+git clone https://github.com/karjok/messagate.git
+cd messagate
 
 # Point Gradle at your Android SDK (or export ANDROID_HOME instead)
 printf 'sdk.dir=%s\n' "$HOME/Android/Sdk" > local.properties
@@ -180,4 +180,4 @@ Detection flow: `SmsReceiver` → `DetectionService` (engine) → `PreferencesMa
 - **License:** [Apache License 2.0](LICENSE). The original copyright notice (`Copyright 2026 monkeyscript`) is retained; modifications are released under the same license.
 - Vector icons, monoline logo and splash artwork are part of this fork.
 
-If you find a bug or have a feature request for the fork, please [open an issue](https://github.com/karjok/heimdall/issues). For the original app, use the [upstream tracker](https://github.com/monkeyscript/heimdall/issues).
+If you find a bug or have a feature request for the fork, please [open an issue](https://github.com/karjok/messagate/issues). For the original app, use the [upstream tracker](https://github.com/monkeyscript/heimdall/issues).
