@@ -1,3 +1,0 @@
-• Added regex rule support with automatic pattern detection and R badge indicator.
-• Made message text selectable in the preview modal for copying specific words or phrases.
-• Simplified Settings by merging the spam filter toggle into the master Active switch.
